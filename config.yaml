@@ -1,0 +1,8 @@
+
+path: /content/drive/MyDrive/VinDr/  # root_dir
+train: images/train/
+val: images/val/
+
+# Classes
+names:
+  0: Cancer
