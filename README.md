@@ -85,39 +85,43 @@ Usage:
 ## Description
 This repository contains 3 files for preprocessing, training and results evaluation in the context of breast cancer detection using YOLOv8.
 
-    "Preprocessing.py" file focuses on preparing the dataset for training. Follow these steps to use the preprocessing script:
+1.Preprocessing.py
+
+    This file focuses on preparing the dataset for training. Follow these steps to use the preprocessing script:
     
-    Dataset Structure:
+    a. Dataset Structure:
     Ensure that your dataset is organized with proper directory structure, and each image is associated with relevant yolo annotations.
 
-    Configurations:
+    b. Configurations:
     Modify the configuration parameters within the config.yaml, such as file paths according to your dataset.
 
-    Run the Script:
+    c. Run the Script:
     Execute the script using a Python environment. This will generate the preprocessed data necessary for training.
 
-
-    "Train.py" file is responsible for training the YOLOv8 model on the preprocessed dataset. Follow these steps to initiate the training process:
+2.Train.py
     
-    Preprocessed Data:
+    This file is responsible for training the YOLOv8 model on the preprocessed dataset. Follow these steps to initiate the training process:
+    
+    a. Preprocessed Data:
     Ensure that the preprocessing step has been completed, and the preprocessed data is available in the specified directory.
 
-    Configuration:
+    b. Configuration:
     Adjust hyperparameters, dataset paths and training settings in the script based on your requirements.
 
-    Start Training:
+    c. Start Training:
     Execute the script to begin training the YOLOv8 model.
 
+2.Results.py
 
-    "Results.py" file assesses the model's performance by generating and visualizing a confusion matrix. Follow these steps to evaluate the results:
+    This file assesses the model's performance by generating and visualizing a confusion matrix. Follow these steps to evaluate the results:
     
-    Trained Model:
+    a. Trained Model:
     Make sure that the YOLOv8 model has been trained using the training.py script and the weights are available.
 
-    Configuration:
+    b. Configuration:
     Adjust the script's configurations, such as file paths and class labels, to match your setup.
 
-    Evaluate Results:
+    c. Evaluate Results:
     Execute the script to generate and display the confusion matrix based on model predictions.
 
 
