@@ -2,7 +2,7 @@
 
 This README provides an overview of how to use each script. Ensure that the necessary dependencies such as Ultralytics YOLOv8 package, OpenCV and other relevant libraries as mentioned in the files are installed . Please, modify paths and configurations as needed before running the scripts.
 
-Running on Local Machine
+## Running on Local PC
 Requirements:
 
     Python 3.7.7
@@ -43,7 +43,7 @@ Usage:
     Evaluate the trained model:
     python Results.py
 
-Running on Google Colab
+## Running on Google Colab
 Requirements:
 
     Google Colab Pro/Pro+ account
