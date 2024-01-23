@@ -1,6 +1,6 @@
 # Breast Cancer Detection with YOLOv8
 
-This README provides an overview of how to use each script. Ensure that the necessary dependencies such as yltralytics YOLOv8 package, OpenCV and other relevant libraries as mentioned in the files are installed . Please, modify paths and configurations as needed before running the scripts.
+This README provides an overview of how to use each script. Ensure that the necessary dependencies such as Ultralytics YOLOv8 package, OpenCV and other relevant libraries as mentioned in the files are installed . Please, modify paths and configurations as needed before running the scripts.
 
 Running on Local Machine
 Requirements:
