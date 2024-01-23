@@ -5,7 +5,7 @@ This README provides an overview of how to use each script. Ensure that the nece
 Running on Local Machine
 Requirements:
 
-    Python 3.x
+    Python 3.7.7
     12GB or higher NVIDIA GPU with CUDA support
     CUDA Toolkit
     Git (for cloning the repository)
