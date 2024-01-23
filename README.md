@@ -1,4 +1,4 @@
-#Breast Cancer Detection with YOLOv8
+# Breast Cancer Detection with YOLOv8
 
 This README provides an overview of how to use each script. Ensure that the necessary dependencies, such as YOLOv8, OpenCV, and other relevant libraries, are installed before running the scripts. Feel free to modify paths and configurations as needed.
 
